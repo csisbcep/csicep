@@ -35,7 +35,6 @@
   - Black background  
 - Add **hover effects** (gold glow, soft scaling)  
 - Use **bigger hero section** with centered or left-aligned layout  
-- Cards can be arranged in rows (3 per row)  
 - Navigation bar should be horizontal with gold hover indicators  
 - Avoid oversizing text — keep it elegant  
 - Desktop animations can be slightly richer but still minimal  
