@@ -105,34 +105,41 @@ export default function App() {
       </section>
 
       <section id="about" className="safe-area w-full max-w-6xl mx-auto mt-12">
-        <div className="grid gap-10 rounded-[32px] border border-[#1f1f1f] bg-[#050505]/90 px-8 py-12 md:grid-cols-2">
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.45em] text-[#E6C14F]">
-              About The Chapter
-            </p>
-            <h2 className="mt-3 text-3xl font-semibold text-[#D4AF37]">Why CSI SB CEP?</h2>
-            <p className="mt-4 text-white/80">
-              CSI Student Branch at CEP nurtures innovation by connecting researchers, technologists, and designers
-              through curated labs, hack nights, and mentorship. We champion inclusive communities that transform
-              experiments into campus-wide impact.
-            </p>
-          </div>
-          <div className="space-y-5">
+        <div className="rounded-[32px] border border-[#1f1f1f] bg-[#050505]/90 px-8 py-12 text-center">
+          <p className="text-xs font-semibold uppercase tracking-[0.45em] text-[#E6C14F]">
+            About CSI
+          </p>
+          <p className="mt-4 text-sm sm:text-base text-white/80 leading-relaxed">
+            Computer Society of India (CSI) is the first and largest body of computer professionals in India. It was started on 6 March 1965 by a few computer professionals and has now grown to be the national body representing computer professionals.
+          </p>
+          <p className="mt-5 text-sm sm:text-base text-white/75 leading-relaxed">
+            Being closely associated with Students the Society has developed a well-established net-work of “Student Branches” all across the country. CSI has 488 student branches with more than 90,000 Student Volunteers across the nation. The activities conducted for the Students associated with the Society include lecture meetings, seminars, conferences, training programmes, programming contests and practical visits to installations. CSI has a strong Educational Directorate based at Chennai which undertakes activities related to Certification of professionals related to the latest technologies. Its recent initiative of distance education in the Business Domain areas offers technology enabled learning supported by personal counseling & expert advice. In an ever changing environment, CSI offers professional counseling being a great need of the hour. And this is done by being in close contact with it’s young members through various events, conferences, symposia to name a few. CSI regularly organises SEARCC Programming Contest, Alan Turning Quiz, Discover Thinking Project Contest, On-line Programming Contest etc. for the students.
+          </p>
+
+          <div className="mt-8 grid gap-4 sm:grid-cols-3">
             {[
-              'Industry-certified workshops & demo days every quarter.',
-              'Peer-to-peer labs guided by faculty mentors & alumni.',
-              'Dedicated support for capstone projects and publications.',
-            ].map((item) => (
+              { value: '15,000+', label: 'Members' },
+              { value: '780+', label: 'Institutes' },
+              { value: '25+', label: 'Industries' },
+            ].map((stat) => (
               <div
-                key={item}
-                className="flex items-start gap-3 rounded-2xl border border-[#2a2a2a] bg-[#0b0b0b] px-5 py-4 text-sm text-white/85"
+                key={stat.label}
+                className="rounded-2xl border border-[#2b200a] bg-gradient-to-b from-[#141313] to-[#050505] px-6 py-5 shadow-[0_0_25px_rgba(212,175,55,0.15)]"
               >
-                <span className="mt-1 h-2 w-2 rounded-full bg-[#D4AF37]" />
-                <p>{item}</p>
+                <p className="text-2xl font-semibold text-[#F1D27E]">{stat.value}</p>
+                <p className="mt-2 text-xs uppercase tracking-[0.35em] text-white/70">
+                  {stat.label}
+                </p>
               </div>
             ))}
           </div>
         </div>
+      </section>
+
+      <section className="safe-area w-full max-w-6xl mx-auto mt-8 text-center">
+        <p className="text-sm font-semibold uppercase tracking-[0.5em] text-[#D4AF37]">
+          CSI SB CEP CHAPTER
+        </p>
       </section>
     </main>
   );
