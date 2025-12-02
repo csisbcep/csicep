@@ -9,7 +9,7 @@ body {
   margin: 0;
   background-color: #000;
   color: #fff;
-  font-family: 'Inter', 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   position: relative;
   min-height: 100vh;
   overflow-x: hidden;

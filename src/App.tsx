@@ -5,10 +5,10 @@ export default function App() {
     <main className="decorated-bg fade-in-up min-h-screen bg-gradient-to-b from-black via-[#080808] to-black px-6 py-12 md:px-12 text-white">
       <header className="safe-area w-full max-w-6xl mx-auto mb-10 px-4 sm:px-0">
         <nav className="flex flex-col items-center text-center gap-4 sm:flex-row sm:items-center sm:justify-between sm:text-left">
-          <span className="text-xs font-semibold uppercase tracking-[0.45em] text-[#E6C14F]">
+          <span className="text-xs font-semibold tracking-[0.25em] text-[#E6C14F]">
             CSI SB CEP
           </span>
-          <div className="flex flex-wrap items-center justify-center gap-4 text-[0.7rem] font-semibold uppercase tracking-[0.35em] text-white/70 sm:justify-end">
+          <div className="flex flex-wrap items-center justify-center gap-4 text-[0.7rem] font-semibold tracking-[0.2em] text-white/70 sm:justify-end">
             {[
               { label: 'Events', href: '#events' },
               { label: 'Membership', href: '#membership' },
@@ -66,7 +66,7 @@ export default function App() {
 
       <section id="announcements" className="safe-area w-full max-w-6xl mx-auto mt-10">
         <div className="rounded-[28px] border border-[#C8A43B] bg-[#050505] px-8 py-10 shadow-[0_0_65px_rgba(212,175,55,0.08)]">
-          <h2 className="text-lg font-semibold uppercase tracking-[0.5em] text-[#D4AF37]">
+          <h2 className="text-lg font-semibold tracking-[0.3em] text-[#D4AF37]">
             Announcements
           </h2>
           <ul className="mt-6 space-y-4 text-left text-white/85">
@@ -106,7 +106,7 @@ export default function App() {
 
       <section id="about" className="safe-area w-full max-w-6xl mx-auto mt-12">
         <div className="rounded-[32px] border border-[#1f1f1f] bg-[#050505]/90 px-8 py-12 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.45em] text-[#E6C14F]">
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#E6C14F]">
             About CSI
           </p>
           <p className="mt-4 text-sm sm:text-base text-white/80 leading-relaxed">
@@ -124,7 +124,7 @@ export default function App() {
             ].map((stat) => (
               <div
                 key={stat.label}
-                className="rounded-2xl border border-[#2b200a] bg-gradient-to-b from-[#141313] to-[#050505] px-6 py-5 shadow-[0_0_25px_rgba(212,175,55,0.15)]"
+                className="rounded-2xl border-2 border-[#D4AF37]/70 bg-gradient-to-b from-[#141313] to-[#050505] px-6 py-5 ring-1 ring-inset ring-[#1f1607] shadow-[0_0_35px_rgba(212,175,55,0.25)]"
               >
                 <p className="text-2xl font-semibold text-[#F1D27E]">{stat.value}</p>
                 <p className="mt-2 text-xs uppercase tracking-[0.35em] text-white/70">
@@ -137,7 +137,7 @@ export default function App() {
       </section>
 
       <section className="safe-area w-full max-w-6xl mx-auto mt-8 text-center">
-        <p className="text-sm font-semibold uppercase tracking-[0.5em] text-[#D4AF37]">
+        <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#D4AF37]">
           CSI SB CEP CHAPTER
         </p>
       </section>
