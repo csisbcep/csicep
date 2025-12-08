@@ -138,8 +138,29 @@ export default function App() {
 
       <section className="safe-area w-full max-w-6xl mx-auto mt-8 text-center">
         <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#D4AF37]">
-          CSI SB CEP CHAPTER
+          CSI SB CEP Chapter
         </p>
+        <div className="mt-6 space-y-4 text-sm sm:text-base leading-relaxed text-white/80 max-w-4xl mx-auto">
+          <p>
+            The CSI Student Branch at the College of Engineering Perumon is a vibrant hub where passionate tech enthusiasts come together to learn, build, and innovate! As part of the prestigious Computer Society of India (CSI)—the country’s oldest and largest body of computer professionals—our student branch opens the door to a world of opportunities, experiences, and skill-building like never before.
+          </p>
+          <p>
+            We aim to empower students with the knowledge, confidence, and exposure they need to excel in the ever-evolving tech landscape. From hands-on workshops and coding challenges to expert talks, community projects, and tech events, CSI SB Perumon is all about inspiring students to push boundaries and transform ideas into impactful solutions.
+          </p>
+          <p>
+            With a focus on collaboration, creativity, and continuous learning, CSI helps students stay future-ready while building a strong network of peers, mentors, and industry leaders. Whether you're a beginner exploring tech or a seasoned developer aiming higher, CSI SB Perumon gives you the perfect platform to grow, lead, and shine.
+          </p>
+          <div className="flex justify-center pt-2">
+            <span className="tagline-callout">
+              <span>Learn.</span>
+              <span>Build.</span>
+              <span>Inspire.</span>
+            </span>
+          </div>
+          <p className="text-[#D4AF37] font-semibold">
+            That’s the spirit of CSI SB Perumon.
+          </p>
+        </div>
       </section>
     </main>
   );
