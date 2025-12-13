@@ -66,7 +66,7 @@ export default function App() {
 
       <section id="announcements" className="safe-area w-full max-w-6xl mx-auto mt-10">
         <div className="rounded-[28px] border border-[#C8A43B] bg-[#050505] px-8 py-10 shadow-[0_0_65px_rgba(212,175,55,0.08)]">
-          <h2 className="text-lg font-semibold tracking-[0.3em] text-[#D4AF37]">
+          <h2 className="text-2xl md:text-3xl font-semibold tracking-[0.3em] text-[#D4AF37]">
             Announcements
           </h2>
           <ul className="mt-6 space-y-4 text-left text-white/85">
@@ -106,7 +106,7 @@ export default function App() {
 
       <section id="about" className="safe-area w-full max-w-6xl mx-auto mt-12">
         <div className="rounded-[32px] border border-[#1f1f1f] bg-[#050505]/90 px-8 py-12 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#E6C14F]">
+          <p className="text-sm sm:text-base font-semibold uppercase tracking-[0.3em] text-[#E6C14F]">
             About CSI
           </p>
           <p className="mt-4 text-sm sm:text-base text-white/80 leading-relaxed">
@@ -137,7 +137,7 @@ export default function App() {
       </section>
 
       <section className="safe-area w-full max-w-6xl mx-auto mt-8 text-center">
-        <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#D4AF37]">
+        <p className="text-base sm:text-lg font-semibold uppercase tracking-[0.35em] text-[#D4AF37]">
           CSI SB CEP Chapter
         </p>
         <div className="mt-6 space-y-4 text-sm sm:text-base leading-relaxed text-white/80 max-w-4xl mx-auto">
@@ -164,7 +164,7 @@ export default function App() {
       </section>
 
       <section id="executives" className="safe-area w-full max-w-6xl mx-auto mt-12 text-center">
-        <h2 className="text-2xl font-semibold text-[#D4AF37] tracking-[0.2em] uppercase">
+        <h2 className="text-xl sm:text-2xl font-semibold text-[#D4AF37] tracking-[0.2em] uppercase">
           Meet our Executives
         </h2>
         <p className="mt-3 text-sm sm:text-base text-white/70">
