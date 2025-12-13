@@ -162,6 +162,48 @@ export default function App() {
           </p>
         </div>
       </section>
+
+      <section id="executives" className="safe-area w-full max-w-6xl mx-auto mt-12 text-center">
+        <h2 className="text-2xl font-semibold text-[#D4AF37] tracking-[0.2em] uppercase">
+          Meet our Executives
+        </h2>
+        <p className="mt-3 text-sm sm:text-base text-white/70">
+          Visionaries guiding the CSI SB CEP journey.
+        </p>
+        <div className="mt-8 grid gap-8 sm:grid-cols-2">
+          {[
+            { title: 'Chair', image: 'https://via.placeholder.com/220x220.png?text=Chair', name: 'mem1' },
+            { title: 'Vice Chair', image: 'https://via.placeholder.com/220x220.png?text=Vice+Chair', name: 'mem2' },
+          ].map((role) => (
+            <div
+              key={role.title}
+              className="flex flex-col items-center gap-6 rounded-[36px] border border-[#C8A43B]/80 bg-[#050505]/80 px-8 py-10 shadow-[0_0_45px_rgba(212,175,55,0.25)]"
+            >
+              <div className="w-40 h-40 rounded-full border-2 border-[#D4AF37] bg-gradient-to-b from-[#1a1a1a] to-[#050505] overflow-hidden flex items-center justify-center">
+                <img
+                  src={role.image}
+                  alt={`${role.title} portrait placeholder`}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div>
+                <p className="text-xs uppercase tracking-[0.35em] text-[#E6C14F]">
+                  {role.title}
+                </p>
+                <p className="mt-1 text-white/80 text-sm">{role.name}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="mt-8 flex justify-center">
+          <a
+            href="#executive-committee"
+            className="rounded-full border border-[#D4AF37] px-6 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-[#D4AF37] transition duration-200 hover:border-[#E6C14F] hover:text-[#E6C14F]"
+          >
+            Meet our full team
+          </a>
+        </div>
+      </section>
     </main>
   );
 }
