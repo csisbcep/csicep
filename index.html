@@ -1,13 +1,198 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>csicep</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSI SB CEP | Innovate. Inspire. Lead.</title>
+    
+    <!-- Fonts: Outfit (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons: RemixIcon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Background -->
+    <div class="ambient-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="noise-overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container nav-container">
+            <a href="#" class="logo">CSI SB CEP</a>
+            <button class="mobile-toggle" aria-label="Toggle Menu">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#execom">Execom</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#join" class="btn-nav">Join CSI</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content reveal">
+            <h1 class="hero-title">CSI SB CEP</h1>
+            <h2 class="hero-slogan">INNOVATE | INSPIRE | LEAD</h2>
+            <p class="hero-subtitle">The Official Computer Society of India Student Branch of CEP.</p>
+            <a href="#join" class="btn-primary">Join Our Community</a>
+        </div>
+    </header>
+
+    <!-- Ticker -->
+    <div class="ticker-wrap">
+        <div class="ticker">
+            <div class="ticker-item">
+                <a href="#"><i class="ri-calendar-event-line"></i> Upcoming: Tech Talk on AI - Register Now!</a>
+            </div>
+            <div class="ticker-item">
+                <a href="#"><i class="ri-calendar-event-line"></i> Upcoming: Tech Talk on AI - Register Now!</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Announcements -->
+    <section id="announcements" class="section">
+        <div class="container reveal">
+            <div class="glass announcement-box">
+                <div class="section-header">
+                    <h2>Announcements</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="grid-3">
+                    <div class="card glass">
+                        <span class="date-badge">Oct 25</span>
+                        <h3>Hackathon 2023</h3>
+                        <p>Join us for a 24-hour coding marathon. Win exciting prizes!</p>
+                        <a href="#" class="btn-text">Read More &rarr;</a>
+                    </div>
+                    <div class="card glass">
+                        <span class="date-badge">Nov 10</span>
+                        <h3>AI Workshop</h3>
+                        <p>Hands-on session on Generative AI tools and techniques.</p>
+                        <a href="#" class="btn-text">Read More &rarr;</a>
+                    </div>
+                    <div class="card glass">
+                        <span class="date-badge">Dec 05</span>
+                        <h3>Tech Talk: Web3</h3>
+                        <p>Exploring the future of decentralized internet with experts.</p>
+                        <a href="#" class="btn-text">Read More &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About CSI (National) -->
+    <section id="about" class="section">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>About CSI</h2>
+                <div class="line"></div>
+            </div>
+            <div class="content-block glass">
+                <p>The Computer Society of India (CSI) is the largest and most professionally managed association of and for IT professionals in India. The purposes of the Society are scientific and educational directed towards the advancement of the theory and practice of computer science and IT.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About CSI SB CEP (Chapter) -->
+    <section class="section">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>Our Chapter</h2>
+                <div class="line"></div>
+            </div>
+            <div class="grid-3">
+                <div class="card glass">
+                    <i class="ri-eye-line card-icon"></i>
+                    <h3>Vision</h3>
+                    <p>To empower students with technical excellence and foster a culture of continuous innovation.</p>
+                </div>
+                <div class="card glass">
+                    <i class="ri-rocket-line card-icon"></i>
+                    <h3>Mission</h3>
+                    <p>Bridging the gap between industry and academia through workshops, hackathons, and mentorship.</p>
+                </div>
+                <div class="card glass">
+                    <i class="ri-group-line card-icon"></i>
+                    <h3>Activities</h3>
+                    <p>Regular coding competitions, expert talks, and hands-on sessions on emerging technologies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet Executives -->
+    <section id="execom" class="section">
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>Meet Our Executives</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="execom-grid">
+                <!-- Chairperson -->
+                <div class="execom-card glass">
+                    <div class="img-wrapper">
+                        <!-- Placeholder for image -->
+                        <div class="placeholder-img"></div> 
+                        <div class="social-overlay">
+                            <a href="#"><i class="ri-linkedin-fill"></i></a>
+                            <a href="#"><i class="ri-github-fill"></i></a>
+                        </div>
+                    </div>
+                    <h3>Alex Doe</h3>
+                    <span class="role">Chairperson</span>
+                </div>
+
+                <!-- Vice Chairperson -->
+                <div class="execom-card glass">
+                    <div class="img-wrapper">
+                        <div class="placeholder-img"></div>
+                        <div class="social-overlay">
+                            <a href="#"><i class="ri-linkedin-fill"></i></a>
+                            <a href="#"><i class="ri-github-fill"></i></a>
+                        </div>
+                    </div>
+                    <h3>Sam Smith</h3>
+                    <span class="role">Vice Chairperson</span>
+                </div>
+            </div>
+
+            <div class="center-action">
+                <a href="#" class="btn-secondary">View Full Execom</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-left">
+                <h4>CSI SB CEP</h4>
+                <p>&copy; 2023 Computer Society of India - CEP SB.</p>
+            </div>
+            <div class="footer-right">
+                <a href="#">Privacy</a>
+                <a href="#">Contact</a>
+                <span class="made-with">Made with <i class="ri-code-s-slash-line"></i></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
